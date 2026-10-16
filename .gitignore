@@ -1,6 +1,23 @@
+# Secrets
 .env
-reports/
+.env.*
+!.env.example
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
+env/
 .conda/
+
+# IDE / OS
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated reports (optional)
+reports/
+*.report.json
+*.report.md
